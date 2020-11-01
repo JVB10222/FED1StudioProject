@@ -1,0 +1,132 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Notable&family=Pacifico&display=swap');
+
+header {
+    background-color: crimson;
+    font-style: italic;
+    font-size: 25px;
+    color: whitesmoke;
+    box-shadow: -15px -2px 5px #3feee6;
+}
+
+nav a {
+    font-weight: bold;
+    color: #666666;
+    
+}
+
+nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+}
+
+nav ul {
+    background-color: #3feee6;
+    padding: 0;
+}
+
+nav li:hover {
+    background-color: indigo;
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+        padding: .4em 1em;
+        display: block;
+        text-decoration: none;
+        
+}
+
+.slogan {
+    color: whitesmoke;
+    font-size: 30px;
+
+}
+
+
+main {
+    background-color: rgb(220, 5, 50);
+}
+
+h1 {
+    color: darkblue;
+    font-size: 24px;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+
+aside h2 {
+    background-color: #3feee6;
+    color: #666666;
+    text-decoration: none;
+}
+
+header h1 {
+    color: floralwhite;
+    font-size: 30px;
+}
+
+footer {
+    font-style: italic;
+}
+
+#ClassLists {
+    background-color: aqua;
+    font-size: 30px;
+}
+
+body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#adbcd1+15,d24b5a+52,ba2737+60,f18e99+100 */
+    background: #adbcd1; /* Old browsers */
+    background: -moz-linear-gradient(top, #adbcd1 15%, #d24b5a 52%, #ba2737 60%, #f18e99 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #adbcd1 15%,#d24b5a 52%,#ba2737 60%,#f18e99 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #adbcd1 15%,#d24b5a 52%,#ba2737 60%,#f18e99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adbcd1', endColorstr='#f18e99',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.aboutUs {
+    color: floralwhite;
+
+}
+
+.fs-h1{
+    font-size: 1em;
+}
+
+.fs-h2{
+    font-size: 1.6em;
+}
+
+.fs-h3{
+    font-size: 4em;
+}
+
+/*font-family: 'Notable', sans-serif;
+font-family: 'Pacifico', cursive;*/
+header h1 {
+    font-family: 'Notable', sans-serif;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    
+    background: url(../Images/desert.jfif) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+
+
